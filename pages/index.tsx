@@ -311,7 +311,7 @@ export default function Home() {
 
         <div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 text-left text-lg md:text-xl">
           <div className="space-y-4">
-            <p><strong>Email:</strong> EchoPestDefense@gmail.com</p>
+            <p><strong>Email:</strong> echopestdefense@gmail.com</p>
             <p><strong>Phone:</strong> (206) 833-8687</p>
           </div>
 

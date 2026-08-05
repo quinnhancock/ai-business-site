@@ -13,9 +13,7 @@ export default function Navbar() {
         <Link href="/" className="text-2xl font-bold flex">
   <span style={{ color: "var(--brand-blue)" }}>Echo</span>
   <span style={{ color: "var(--brand-green)" }}>Pest</span>
-  <span style={{ color: "var(--brand-blue)", marginLeft: "0.35rem" }}>
-    Defense
-  </span>
+  <span style={{ color: "var(--brand-blue)" }}>Defense</span>
 </Link>
 
 
