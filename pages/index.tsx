@@ -97,32 +97,31 @@ export default function Home() {
 {/* Pricing Plans Section */}
 <section className="py-24 px-8 bg-gray-50">
   <div className="max-w-7xl mx-auto text-center">
-    <h2 className="text-4xl font-bold mb-4">Choose the plan that fits your home.
-</h2>
+    <h2 className="text-4xl font-bold mb-4">Choose the plan that fits your home.</h2>
     <p className="text-lg text-gray-600 mb-12">
-    Find the level of protection built for your pest needs.
+      Simple coverage options built around how you want your home protected.
     </p>
 
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-      {/* Core Plan */}
+      {/* Core Plan – Outdoor Only */}
       <div className="bg-white border border-gray-200 rounded-2xl shadow hover:shadow-lg transition p-8 text-left">
         <h3 className="text-2xl font-bold mb-2">Core</h3>
-        <p className="text-green-600 font-semibold mb-4">Call for pricing</p>
+        <p className="text-green-600 font-semibold mb-4">$25 / month</p>
+
         <p className="text-gray-700 mb-4">
-          Reliable protection against common household pests with routine inspections and targeted treatments to keep your home comfortable.
+          Outdoor‑only protection that keeps pests off your home before they ever get inside.
         </p>
         <p className="text-gray-700 mb-6">
-          Seasonally timed visits aligned to local pest activity—so you stay ahead as conditions change.
+          Includes exterior barrier treatments, foundation protection, and seasonal perimeter defense.
         </p>
 
-        <h4 className="font-semibold text-gray-800 mb-2">Add‑Ons:</h4>
-        <ul className="grid grid-cols-2 gap-x-4 text-gray-700 mb-6 list-disc list-inside">
-          <li>Outdoor rodents</li>
-          <li>Pantry pests</li>
-          <li>Slugs</li>
-          <li>Snails</li>
-          <li>Aphids</li>
+        <h4 className="font-semibold text-gray-800 mb-2">Covers:</h4>
+        <ul className="list-disc list-inside text-gray-700 mb-6">
+          <li>Exterior spiders</li>
+          <li>Ants</li>
+          <li>Wasps (ground level)</li>
+          <li>Seasonal perimeter pests</li>
         </ul>
 
         <a
@@ -133,32 +132,28 @@ export default function Home() {
         </a>
       </div>
 
-      {/* Plus Plan */}
+      {/* Plus Plan – In & Out */}
       <div className="bg-green-50 border border-green-200 rounded-2xl shadow-lg p-8 text-left relative">
         <span className="absolute top-6 right-6 bg-yellow-300 text-sm font-semibold px-3 py-1 rounded-full">
           Most Popular
         </span>
+
         <h3 className="text-2xl font-bold mb-2">Plus</h3>
-        <p className="text-green-600 font-semibold mb-4">Call for pricing</p>
+        <p className="text-green-600 font-semibold mb-4">$35 / month</p>
+
         <p className="text-gray-700 mb-4">
-          Expanded protection that tackles a wider range of household pests with targeted, year‑round treatments for stronger prevention.
+          Full interior + exterior protection for homes that want pests gone and kept out year‑round.
         </p>
         <p className="text-gray-700 mb-6">
-          More frequent service during spring and summer when pest pressure spikes—then steady maintenance the rest of the year.
+          Includes indoor spot treatments, crack‑and‑crevice protection, and boosted exterior coverage.
         </p>
 
-        <h4 className="font-semibold text-gray-800 mb-2">Includes:</h4>
-        <ul className="grid grid-cols-2 gap-x-4 text-gray-700 mb-6 list-disc list-inside">
-          <li>Outdoor rodents</li>
-          <li>Pantry pests</li>
-          <li>Slugs</li>
-          <li>Snails</li>
-          <li>Aphids</li>
-        </ul>
-
-        <h4 className="font-semibold text-gray-800 mb-2">Add‑Ons:</h4>
+        <h4 className="font-semibold text-gray-800 mb-2">Covers:</h4>
         <ul className="list-disc list-inside text-gray-700 mb-6">
-          <li>Mosquitoes</li>
+          <li>Interior pests</li>
+          <li>Exterior pests</li>
+          <li>Rodents (exclusion‑based)</li>
+          <li>Seasonal high‑pressure pests</li>
         </ul>
 
         <a
@@ -169,25 +164,25 @@ export default function Home() {
         </a>
       </div>
 
-      {/* Elite Plan */}
+      {/* Elite Plan – In, Out, Yard, Mosquito */}
       <div className="bg-white border border-gray-200 rounded-2xl shadow hover:shadow-lg transition p-8 text-left">
         <h3 className="text-2xl font-bold mb-2">Elite</h3>
-        <p className="text-green-600 font-semibold mb-4">Call for pricing</p>
+        <p className="text-green-600 font-semibold mb-4">$49 / month</p>
+
         <p className="text-gray-700 mb-4">
-          Our most complete plan—tailored visits that match local pest pressure and coverage that includes mosquitoes.
+          Complete home + yard coverage including mosquitoes, perimeter yard pests, and full interior protection.
         </p>
         <p className="text-gray-700 mb-6">
-          Our highest visit cadence year‑round, with extra attention during peak season to help stop problems before they spread.
+          Ideal for homes with yards, heavy pest pressure, or anyone wanting the strongest protection available.
         </p>
 
-        <h4 className="font-semibold text-gray-800 mb-2">Includes:</h4>
-        <ul className="grid grid-cols-2 gap-x-4 text-gray-700 mb-6 list-disc list-inside">
-          <li>Outdoor rodents</li>
-          <li>Pantry pests</li>
-          <li>Slugs</li>
-          <li>Snails</li>
-          <li>Aphids</li>
+        <h4 className="font-semibold text-gray-800 mb-2">Covers:</h4>
+        <ul className="list-disc list-inside text-gray-700 mb-6">
+          <li>Interior pests</li>
+          <li>Exterior pests</li>
+          <li>Yard pests</li>
           <li>Mosquitoes</li>
+          <li>Rodents</li>
         </ul>
 
         <a
@@ -201,6 +196,7 @@ export default function Home() {
     </div>
   </div>
 </section>
+
 
 
 
