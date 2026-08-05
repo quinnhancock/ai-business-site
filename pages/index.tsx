@@ -207,47 +207,79 @@ export default function Home() {
 
 
 
+{/* Get a Quote Section */}
+<section id="quote" className="py-24 px-8 bg-white animate-fadeIn">
+  <div className="max-w-3xl mx-auto text-center">
+    <h2 className="text-4xl font-bold mb-6">Get a Quote</h2>
+    <p className="text-lg text-gray-600 mb-12">
+      Fill out your information below and we’ll reach out with a personalized quote.
+    </p>
 
-      {/* Get a Quote Section */}
-      <section id="quote" className="py-24 px-8 bg-white animate-fadeIn">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6">Get a Quote</h2>
-          <p className="text-lg text-gray-600 mb-12">
-            Fill out your information below and we’ll reach out with a personalized quote.
-          </p>
+    <form 
+      action="https://formspree.io/f/xppaavyo" 
+      method="POST"
+      className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left"
+    >
+      <div className="flex flex-col">
+        <label className="text-gray-700 font-medium mb-2">First Name</label>
+        <input 
+          type="text" 
+          name="firstName"
+          className="p-3 border border-gray-300 rounded-lg"
+          required
+        />
+      </div>
 
-          <form className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
-            <div className="flex flex-col">
-              <label className="text-gray-700 font-medium mb-2">First Name</label>
-              <input type="text" className="p-3 border border-gray-300 rounded-lg" />
-            </div>
+      <div className="flex flex-col">
+        <label className="text-gray-700 font-medium mb-2">Last Name</label>
+        <input 
+          type="text" 
+          name="lastName"
+          className="p-3 border border-gray-300 rounded-lg"
+          required
+        />
+      </div>
 
-            <div className="flex flex-col">
-              <label className="text-gray-700 font-medium mb-2">Last Name</label>
-              <input type="text" className="p-3 border border-gray-300 rounded-lg" />
-            </div>
+      <div className="flex flex-col md:col-span-2">
+        <label className="text-gray-700 font-medium mb-2">Email</label>
+        <input 
+          type="email" 
+          name="email"
+          className="p-3 border border-gray-300 rounded-lg"
+          required
+        />
+      </div>
 
-            <div className="flex flex-col md:col-span-2">
-              <label className="text-gray-700 font-medium mb-2">Email</label>
-              <input type="email" className="p-3 border border-gray-300 rounded-lg" />
-            </div>
+      <div className="flex flex-col md:col-span-2">
+        <label className="text-gray-700 font-medium mb-2">Phone Number</label>
+        <input 
+          type="tel" 
+          name="phone"
+          className="p-3 border border-gray-300 rounded-lg"
+          required
+        />
+      </div>
 
-            <div className="flex flex-col md:col-span-2">
-              <label className="text-gray-700 font-medium mb-2">Phone Number</label>
-              <input type="tel" className="p-3 border border-gray-300 rounded-lg" />
-            </div>
+      <div className="flex flex-col md:col-span-2">
+        <label className="text-gray-700 font-medium mb-2">Zip Code</label>
+        <input 
+          type="text" 
+          name="zip"
+          className="p-3 border border-gray-300 rounded-lg"
+          required
+        />
+      </div>
 
-            <div className="flex flex-col md:col-span-2">
-              <label className="text-gray-700 font-medium mb-2">Zip Code</label>
-              <input type="text" className="p-3 border border-gray-300 rounded-lg" />
-            </div>
-          </form>
+      <button 
+        type="submit"
+        className="mt-10 px-8 py-4 bg-blue-700 text-white font-semibold rounded-xl shadow hover:bg-blue-800 transition text-lg md:col-span-2"
+      >
+        Submit Quote Request
+      </button>
+    </form>
+  </div>
+</section>
 
-          <button className="mt-10 px-8 py-4 bg-blue-700 text-white font-semibold rounded-xl shadow hover:bg-blue-800 transition text-lg">
-            Submit Quote Request
-          </button>
-        </div>
-      </section>
 
 {/* Meet the Team Section */}
 <section className="py-20 px-8 max-w-5xl mx-auto">
