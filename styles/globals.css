@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+/* ===== Brand Colors ===== */
+:root {
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+
+  /* Logo Colors */
+  --brand-blue: #0b2a4a;   /* EchoPest Navy */
+  --brand-green: #228B22; 
+
+
+  --accent-light: #f3f6f4;
+  --neutral: #f8f8f8;
+}
+
+/* ===== Typography ===== */
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* ===== Smooth Scroll ===== */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ===== Section Spacing ===== */
+section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* ===== Buttons ===== */
+.btn-primary {
+  background-color: var(--brand-blue);
+  color: #fff;
+  font-weight: 600;
+  padding: 0.75rem 1.75rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #082035;
+}
+
+.btn-outline {
+  border: 2px solid var(--brand-blue);
+  color: var(--brand-blue);
+  font-weight: 600;
+  padding: 0.75rem 1.75rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.btn-outline:hover {
+  background-color: var(--brand-blue);
+  color: #fff;
+}
+
+/* ===== Card Styling ===== */
+.card {
+  background-color: var(--neutral);
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: var(--brand-blue);
+  color: #d0d0d0;
+  padding: 3rem 2rem;
+}
+
+footer a {
+  color: var(--brand-green);
+  transition: color 0.2s ease;
+}
+
+footer a:hover {
+  color: #4a622e;
+}
