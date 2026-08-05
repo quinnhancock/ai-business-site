@@ -261,7 +261,7 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col md:col-span-2">
-        <label className="text-gray-700 font-medium mb-2">Zip Code</label>
+        <label className="text-gray-700 font-medium mb-2">Address</label>
         <input 
           type="text" 
           name="zip"
