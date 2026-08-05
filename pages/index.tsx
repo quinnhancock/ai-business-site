@@ -268,7 +268,7 @@ export default function Home() {
     {/* Jack Feldman */}
     <div className="flex flex-col items-center justify-between h-[400px]">
       <img
-        src="/Jack3.0.jpeg"
+        src="/Jack4.0.jpeg"
         alt="Jack Feldman"
         className="w-full h-64 object-cover object-[center_100%] rounded-lg shadow-md"
       />
