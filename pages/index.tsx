@@ -93,7 +93,6 @@ export default function Home() {
 </section>
 
 
-
 {/* Pricing Plans Section */}
 <section className="py-24 px-8 bg-gray-50">
   <div className="max-w-7xl mx-auto text-center">
@@ -110,10 +109,11 @@ export default function Home() {
         <p className="text-green-600 font-semibold mb-4">$25 / month</p>
 
         <p className="text-gray-700 mb-4">
-          Outdoor‑only protection that keeps pests off your home before they ever get inside.
+          Outdoor‑only protection that stops pests before they ever reach your home. 
+          Our exterior treatment kills essentially all common pests on contact and keeps a barrier around your home.
         </p>
         <p className="text-gray-700 mb-6">
-          Includes exterior barrier treatments, foundation protection, and seasonal perimeter defense.
+          Includes foundation protection, perimeter spray, and seasonal exterior defense.
         </p>
 
         <h4 className="font-semibold text-gray-800 mb-2">Covers:</h4>
@@ -142,7 +142,8 @@ export default function Home() {
         <p className="text-green-600 font-semibold mb-4">$35 / month</p>
 
         <p className="text-gray-700 mb-4">
-          Full interior + exterior protection for homes that want pests gone and kept out year‑round.
+          Full interior + exterior protection. Our treatment kills essentially all pests inside and outside, 
+          giving you year‑round coverage and peace of mind.
         </p>
         <p className="text-gray-700 mb-6">
           Includes indoor spot treatments, crack‑and‑crevice protection, and boosted exterior coverage.
@@ -170,7 +171,7 @@ export default function Home() {
         <p className="text-green-600 font-semibold mb-4">$49 / month</p>
 
         <p className="text-gray-700 mb-4">
-          Complete home + yard coverage including mosquitoes, perimeter yard pests, and full interior protection.
+          Complete home + yard coverage including mosquitoes. This plan kills essentially all pests across your entire property.
         </p>
         <p className="text-gray-700 mb-6">
           Ideal for homes with yards, heavy pest pressure, or anyone wanting the strongest protection available.
@@ -194,9 +195,15 @@ export default function Home() {
       </div>
 
     </div>
+
+    {/* Price Variation Note */}
+    <p className="text-sm text-gray-600 mt-12 max-w-3xl mx-auto">
+      *Pricing may vary slightly depending on the size of your home, yard, and overall pest pressure. 
+      Every home is different, and we tailor your service to match your exact needs.
+    </p>
+
   </div>
 </section>
-
 
 
 
