@@ -16,7 +16,7 @@ export default function Home() {
           {/* Left Side */}
           <div className="md:w-1/2 space-y-6 text-center md:text-left animate-fadeIn">
             <h1 className="text-6xl font-extrabold leading-tight text-blue-700">
-              Cleaner. Safer. Protected.
+              Defended. Safer. Protected.
             </h1>
             <p className="text-xl leading-relaxed text-gray-700 max-w-md">
               Expert pest control that keeps your home safe, clean, and worry‑free.
