@@ -55,6 +55,28 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Limited-Time Promo */}
+<section className="py-10 px-6 bg-[#0b2a4a] text-white text-center rounded-xl shadow-lg max-w-5xl mx-auto mt-12">
+
+  {/* Badge */}
+  <span className="inline-block bg-[#5b7b3a] text-white text-sm font-bold px-4 py-1 rounded-full mb-4">
+    Limited Offer
+  </span>
+
+  <h3 className="text-3xl font-bold mb-3">First 100 Customers Save $100</h3>
+  <p className="text-lg mb-6">
+    Lock in our biggest launch discount ever. Join the EchoPest family and get premium protection at a lower price.
+  </p>
+
+  <a
+    href="#quote"
+    className="inline-block bg-white text-[#0b2a4a] font-semibold px-8 py-4 rounded-xl shadow hover:bg-gray-100 transition text-lg"
+  >
+    Sign Up Now
+  </a>
+</section>
+
+
      {/* Target Pests Section */}
 <section className="py-20 px-8 bg-white">
   <div className="max-w-6xl mx-auto text-center">
