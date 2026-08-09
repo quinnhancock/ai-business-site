@@ -46,7 +46,7 @@ export default function Home() {
     <div className="md:w-1/2 flex justify-center relative">
       <div className="absolute inset-0 bg-white/10 rounded-full blur-3xl"></div>
       <img
-        src="/images/utah-home.jpg"
+        src="/images/echopest.png"
         alt="Utah home pest control"
         className="relative rounded-2xl shadow-2xl border border-white/20"
       />
