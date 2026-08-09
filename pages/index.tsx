@@ -10,31 +10,37 @@ export default function Home() {
       <Navbar />
 
 {/* Hero Section */}
-<section className="relative bg-[#0b2a4a] text-white py-24 px-8 overflow-hidden rounded-b-3xl shadow-lg">
+<section className="relative bg-gray-50 text-[#0b2a4a] py-24 px-8 overflow-hidden rounded-b-3xl shadow-lg">
   <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-16">
 
     {/* Left Side: Text */}
     <div className="md:w-1/2 text-center md:text-left space-y-6">
-      <h1 className="text-5xl font-extrabold leading-tight">
-        Keeping Utah Homes Pest‑Free
+      <h1 className="text-5xl font-extrabold leading-tight text-[#0b2a4a]">
+        Keeping Homes Pest‑Free
       </h1>
-      <p className="text-xl leading-relaxed text-gray-100 max-w-md">
-        EchoPest Defense protects your home inside and out — year‑round. Cleaner. Safer. Protected.
+
+      <p className="text-xl leading-relaxed text-gray-700 max-w-md">
+        EchoPest Defense protects your home inside and out year‑round at an affordable cost — no upsells, no hidden fees, no nonsense.
       </p>
 
-      {/* Promo Badge */}
-      <div className="mt-6">
+      {/* Promo Badge + Box */}
+      <div className="mt-8">
         <span className="inline-block bg-[#5b7b3a] text-white text-sm font-bold px-4 py-1 rounded-full mb-3">
           Limited Offer
         </span>
-        <div className="bg-white text-[#0b2a4a] rounded-xl p-6 shadow-md inline-block">
-          <h3 className="text-2xl font-bold mb-2">First 100 Customers Save $100</h3>
-          <p className="text-base mb-4">
-            Lock in our biggest launch discount ever — premium protection at a lower price.
+
+        <div className="bg-white text-[#0b2a4a] rounded-2xl p-8 shadow-2xl inline-block border border-[#5b7b3a]/40 transform hover:scale-[1.04] transition-all duration-300">
+          <h3 className="text-4xl font-extrabold mb-3 text-[#0b2a4a] tracking-tight">
+            Save $100 
+          </h3>
+
+          <p className="text-lg mb-6 text-gray-700">
+ First 100 customers to sign up saves $100 on any selected contract!
           </p>
+
           <a
             href="#quote"
-            className="inline-block bg-[#0b2a4a] text-white font-semibold px-8 py-3 rounded-lg hover:bg-[#5b7b3a] transition"
+            className="inline-block bg-[#0b2a4a] text-white font-semibold px-10 py-4 rounded-xl shadow hover:bg-[#5b7b3a] transition text-lg"
           >
             Sign Up Now
           </a>
@@ -44,23 +50,14 @@ export default function Home() {
 
     {/* Right Side: Image */}
     <div className="md:w-1/2 flex justify-center relative">
-      <div className="absolute inset-0 bg-white/10 rounded-full blur-3xl"></div>
+      <div className="absolute inset-0 bg-white/40 rounded-full blur-3xl"></div>
       <img
-        src="/images/echopest.png"
+        src="/EchoPest.png"
         alt="Utah home pest control"
-        className="relative rounded-2xl shadow-2xl border border-white/20"
+        className="relative rounded-2xl shadow-2xl border border-gray-200"
       />
     </div>
   </div>
-
-  {/* Decorative Bottom Wave */}
-  <svg
-    className="absolute bottom-0 left-0 w-full text-gray-50"
-    viewBox="0 0 1440 320"
-    fill="currentColor"
-  >
-    <path d="M0,160L48,165.3C96,171,192,181,288,176C384,171,480,149,576,128C672,107,768,85,864,106.7C960,128,1056,192,1152,213.3C1248,235,1344,213,1392,202.7L1440,192V320H0Z"></path>
-  </svg>
 </section>
 
 
@@ -116,7 +113,7 @@ export default function Home() {
       {/* Core Plan – Outdoor Only */}
       <div className="bg-white border border-gray-200 rounded-2xl shadow hover:shadow-lg transition p-8 text-left">
         <h3 className="text-2xl font-bold mb-2">Core</h3>
-        <p className="text-green-600 font-semibold mb-4">$25 / month</p>
+        <p className="text-green-600 font-semibold mb-4">$24.99 / month</p>
 
         <p className="text-gray-700 mb-4">
           Outdoor‑only protection that stops pests before they ever reach your home. 
@@ -138,7 +135,7 @@ export default function Home() {
           href="#contact"
           className="block w-full text-center bg-green-600 text-white font-semibold py-3 rounded-lg hover:bg-green-700 transition"
         >
-          Call Now
+          Call or Text
         </a>
       </div>
 
@@ -149,7 +146,7 @@ export default function Home() {
         </span>
 
         <h3 className="text-2xl font-bold mb-2">Plus</h3>
-        <p className="text-green-600 font-semibold mb-4">$35 / month</p>
+        <p className="text-green-600 font-semibold mb-4">$34.99 / month</p>
 
         <p className="text-gray-700 mb-4">
           Full interior + exterior protection. Our treatment kills essentially all pests inside and outside, 
@@ -171,14 +168,14 @@ export default function Home() {
           href="#contact"
           className="block w-full text-center bg-green-600 text-white font-semibold py-3 rounded-lg hover:bg-green-700 transition"
         >
-          Call Now
+          Call or Text
         </a>
       </div>
 
       {/* Elite Plan – In, Out, Yard, Mosquito */}
       <div className="bg-white border border-gray-200 rounded-2xl shadow hover:shadow-lg transition p-8 text-left">
         <h3 className="text-2xl font-bold mb-2">Elite</h3>
-        <p className="text-green-600 font-semibold mb-4">$49 / month</p>
+        <p className="text-green-600 font-semibold mb-4">$49.99 / month</p>
 
         <p className="text-gray-700 mb-4">
           Complete home + yard coverage including mosquitoes. This plan kills essentially all pests across your entire property.
@@ -200,7 +197,7 @@ export default function Home() {
           href="#contact"
           className="block w-full text-center bg-green-600 text-white font-semibold py-3 rounded-lg hover:bg-green-700 transition"
         >
-          Call Now
+          Call or Text
         </a>
       </div>
 
