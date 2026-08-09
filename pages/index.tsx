@@ -9,72 +9,60 @@ export default function Home() {
       {/* Sticky Navbar */}
       <Navbar />
 
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-gray-50 to-blue-100 text-gray-900 py-28 px-8 overflow-hidden">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-16">
+{/* Hero Section */}
+<section className="relative bg-[#0b2a4a] text-white py-24 px-8 overflow-hidden rounded-b-3xl shadow-lg">
+  <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-16">
 
-          {/* Left Side */}
-          <div className="md:w-1/2 space-y-6 text-center md:text-left animate-fadeIn">
-            <h1 className="text-6xl font-extrabold leading-tight text-blue-700">
-              Defended. Safer. Protected.
-            </h1>
-            <p className="text-xl leading-relaxed text-gray-700 max-w-md">
-              Expert pest control that keeps your home safe, clean, and worry‑free.
-              We stop bugs before they become a problem — guaranteed.
-            </p>
+    {/* Left Side: Text */}
+    <div className="md:w-1/2 text-center md:text-left space-y-6">
+      <h1 className="text-5xl font-extrabold leading-tight">
+        Keeping Utah Homes Pest‑Free
+      </h1>
+      <p className="text-xl leading-relaxed text-gray-100 max-w-md">
+        EchoPest Defense protects your home inside and out — year‑round. Cleaner. Safer. Protected.
+      </p>
 
-            {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-8">
-              <a
-                href="#quote"
-                className="px-8 py-4 bg-blue-700 text-white font-semibold rounded-xl shadow hover:bg-blue-800 transition text-lg cursor-pointer"
-              >
-                Get a Quote
-              </a>
-
-              <a
-                href="#contact"
-                className="px-8 py-4 border border-blue-700 text-blue-700 font-semibold rounded-xl hover:bg-blue-700 hover:text-white transition text-lg cursor-pointer"
-              >
-                Contact Us
-              </a>
-            </div>
-          </div>
-
-          {/* Right Side */}
-          <div className="md:w-1/2 flex justify-center relative animate-fadeIn">
-            <div className="absolute inset-0 bg-blue-700/10 rounded-full blur-3xl"></div>
-            <Image
-              src="/EchoPest.png"
-              alt="Pest Patrol Logo"
-              width={500}
-              height={500}
-              className="relative rounded-xl shadow-2xl border border-gray-200"
-            />
-          </div>
+      {/* Promo Badge */}
+      <div className="mt-6">
+        <span className="inline-block bg-[#5b7b3a] text-white text-sm font-bold px-4 py-1 rounded-full mb-3">
+          Limited Offer
+        </span>
+        <div className="bg-white text-[#0b2a4a] rounded-xl p-6 shadow-md inline-block">
+          <h3 className="text-2xl font-bold mb-2">First 100 Customers Save $100</h3>
+          <p className="text-base mb-4">
+            Lock in our biggest launch discount ever — premium protection at a lower price.
+          </p>
+          <a
+            href="#quote"
+            className="inline-block bg-[#0b2a4a] text-white font-semibold px-8 py-3 rounded-lg hover:bg-[#5b7b3a] transition"
+          >
+            Sign Up Now
+          </a>
         </div>
-      </section>
+      </div>
+    </div>
 
-      {/* Limited-Time Promo */}
-<section className="py-10 px-6 bg-[#0b2a4a] text-white text-center rounded-xl shadow-lg max-w-5xl mx-auto mt-12">
+    {/* Right Side: Image */}
+    <div className="md:w-1/2 flex justify-center relative">
+      <div className="absolute inset-0 bg-white/10 rounded-full blur-3xl"></div>
+      <img
+        src="/images/utah-home.jpg"
+        alt="Utah home pest control"
+        className="relative rounded-2xl shadow-2xl border border-white/20"
+      />
+    </div>
+  </div>
 
-  {/* Badge */}
-  <span className="inline-block bg-[#5b7b3a] text-white text-sm font-bold px-4 py-1 rounded-full mb-4">
-    Limited Offer
-  </span>
-
-  <h3 className="text-3xl font-bold mb-3">First 100 Customers Save $100</h3>
-  <p className="text-lg mb-6">
-    Lock in our biggest launch discount ever. Join the EchoPest family and get premium protection at a lower price.
-  </p>
-
-  <a
-    href="#quote"
-    className="inline-block bg-white text-[#0b2a4a] font-semibold px-8 py-4 rounded-xl shadow hover:bg-gray-100 transition text-lg"
+  {/* Decorative Bottom Wave */}
+  <svg
+    className="absolute bottom-0 left-0 w-full text-gray-50"
+    viewBox="0 0 1440 320"
+    fill="currentColor"
   >
-    Sign Up Now
-  </a>
+    <path d="M0,160L48,165.3C96,171,192,181,288,176C384,171,480,149,576,128C672,107,768,85,864,106.7C960,128,1056,192,1152,213.3C1248,235,1344,213,1392,202.7L1440,192V320H0Z"></path>
+  </svg>
 </section>
+
 
 
      {/* Target Pests Section */}
