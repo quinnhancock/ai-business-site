@@ -62,7 +62,7 @@ export default function Home() {
 
 
 
-     {/* Target Pests Section */}
+{/* Target Pests Section */}
 <section className="py-20 px-8 bg-white">
   <div className="max-w-6xl mx-auto text-center">
     <h2 className="text-4xl font-bold mb-8">Pests We Treat</h2>
@@ -70,7 +70,7 @@ export default function Home() {
       Comprehensive protection against all common household and outdoor pests.
     </p>
 
-    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 text-sm text-gray-800">
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 text-sm text-gray-800">
       {/* Each pest name is small, clean, and evenly spaced */}
       <div className="border border-gray-200 rounded-lg py-3 px-2 hover:bg-gray-50 transition">Spiders</div>
       <div className="border border-gray-200 rounded-lg py-3 px-2 hover:bg-gray-50 transition">Ants</div>
@@ -87,7 +87,6 @@ export default function Home() {
       <div className="border border-gray-200 rounded-lg py-3 px-2 hover:bg-gray-50 transition">Ticks</div>
       <div className="border border-gray-200 rounded-lg py-3 px-2 hover:bg-gray-50 transition">Carpenter Ants</div>
       <div className="border border-gray-200 rounded-lg py-3 px-2 hover:bg-gray-50 transition">Oriental Roaches</div>
-      <div className="border border-gray-200 rounded-lg py-3 px-2 hover:bg-gray-50 transition">German Roaches</div>
       <div className="border border-gray-200 rounded-lg py-3 px-2 hover:bg-gray-50 transition">Wasps</div>
       <div className="border border-gray-200 rounded-lg py-3 px-2 hover:bg-gray-50 transition">Yellow Jackets</div>
       <div className="border border-gray-200 rounded-lg py-3 px-2 hover:bg-gray-50 transition">Bees</div>
