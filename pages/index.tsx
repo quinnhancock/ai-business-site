@@ -204,7 +204,7 @@ export default function Home() {
 
     {/* Price Variation Note */}
     <p className="text-sm text-gray-600 mt-12 max-w-3xl mx-auto">
-      *Pricing may vary slightly depending on the size of your home, yard, and overall pest pressure. 
+      *Pricing may vary slightly depending on the size of your home.
       Every home is different, and we tailor your service to match your exact needs.
     </p>
 
